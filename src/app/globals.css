@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.perch-link {
+  transition: transform 0.12s ease, opacity 0.12s ease;
+}
+
+.perch-link:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+}

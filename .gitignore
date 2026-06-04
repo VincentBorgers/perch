@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+build
+
+# Your content and secrets stay local
+data
+.env
+.env.local
+
+# Logs and editor noise
+*.log
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+next-env.d.ts
